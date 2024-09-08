@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="assets-library://asset/asset.JPG?id=8024F899-054C-47E1-8482-D8681C92FEFE&ext=JPG">
+                <img src="Images/5E08BA5E-8B82-418C-8FAF-5CD9F8B28827-3456-000002CFB1338501/08895651-751F-4706-A19C-DAFCA05E09F4-364-00000083FB569FC9.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Classic Stuffing</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="3">★★★</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">15 min</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">40 min</span>
+            
+            <b>Difficulty: </b><span itemprop="difficulty">Medium</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">8</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                
+                    <span itemprop="author">Mom</span>
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> loaf of white bread</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> celery</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> onion</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> carrot</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cup stock</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> egg</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> half stick butter</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp. poultry seasoning</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp sage</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> tsp salt</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> tsp pepper</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Notes try taller pan go get less crispy<br/>Dont over do the poultry seasoning lol</p><p class="line">1.) Cut bread in cubes and let sit overnight uncovered to get stale.<br/>(Don&apos;t use the pre-cut stuffing bread in the packages).</p><p class="line">2.) Chop celery, onion and carrot</p><p class="line">3.) Simmer celery, carrot and onion in melted butter.</p><p class="line">4.) Let cool a little.</p><p class="line">5.) In large bowl mix together  cooked celery, onion, carrot and cubes of bread, poultry seasoning, sage, salt and pepper.</p><p class="line">6.) Beat egg and add to chicken broth and then add to bread mixture. (use a little more chicken broth if not moist enough).</p><p class="line">7.) Rinse and pat dry (with paper towels)  cavity of bird.  Stuff chicken or turkey.  (Or bake 40 minutes 375 degrees)</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>

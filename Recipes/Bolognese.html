@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://assets.bonappetit.com/photos/5c2f8fe26558e92c8a622671/16:9/w_1880,c_limit/bolognese-1.jpg">
+                <img src="Images/D143B41A-55CE-4735-A894-B34387E9C1D5-2331-000010C6A7B4F278/A9413768-E9F7-4C97-8CDC-86A9A714B8F9-2331-000010C6A807B948.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Bolognese</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+        
+            <p itemprop="recipeCategory" class="categories">Synced</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">15 min</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">3 hr</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">4 servings</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://www.bonappetit.com/recipe/bas-best-bolognese">
+                        <span itemprop="author">@mattjcamp</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> medium onion, chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> celery stalk, chopped</p><p class="line" itemprop="recipeIngredient"><strong>12</strong>small carrot, peeled, chopped</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> Tbsp. extra-virgin olive oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> lb. ground beef chuck (20% fat), patted dry</p><p class="line" itemprop="recipeIngredient">Kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> oz. thinly sliced pancetta, finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup dry white wine</p><p class="line" itemprop="recipeIngredient"><strong>⅓</strong> cup tomato paste</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> bay leaf</p><p class="line" itemprop="recipeIngredient">Pinch of finely grated nutmeg</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups chicken stock</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup whole milk</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> lb. fresh tagliatelle or pappardelle, or dry rigatoni</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> oz. finely grated Parmesan (about ½ cup), plus more for serving</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">PROCEDURE</p><p class="line">- Finely chop onion, celery, and carrot. You can use a food processor until very finely chopped. Transfer to a small bowl.</p><p class="line">- Heat oil in a large pot over medium</p><p class="line">- Break beef into small clumps and add to pot; season lightly with salt.</p><p class="line">- Cook, stirring occasionally but not breaking meat apart, until beef is lightly browned but not crisp, 6–8 minutes. It may be gray in spots (that’s okay!) and still a little pink in the center. Using a slotted spoon, transfer beef to a medium bowl.</p><p class="line">- Wipe out pot. Cook pancetta in pot over medium heat, stirring occasionally, until pancetta has released some of its fat and is crisp, 6–8 minutes.</p><p class="line">- Add onion mixture to pot and cook, stirring occasionally, until vegetables are very soft and beginning to stick to surface, 6–8 minutes.</p><p class="line">- Return beef to pot and pour in wine. Reduce heat to medium-low and cook, smashing down on beef with a wooden spoon, until wine is evaporated, surface of pot is almost dry, and meat is finely ground, 12–15 minutes.</p><p class="line">- Add tomato paste, bay leaf, and nutmeg and cook, stirring occasionally and still pressing down on meat, until tomato paste is slightly darkened, about 5 minutes.</p><p class="line">- Pour stock and milk into pot; add a pinch of salt. </p><p class="line">ALT Long cook: bake in 300d oven two hours with lid slightly ajar. Stir one hour in.</p><p class="line">- Reduce heat to the lowest setting and cook, uncovered and stirring occasionally, until meat is very, very tender, 2–2½ hours. There shouldn’t be any rapid bubbles at this stage. Instead, the sauce should release the occasional small bubble or two. When finished, the sauce should have the texture of and look like a sloppy joe mixture. If the liquid reduces before the meat is completely tender, add an extra ½ cup stock and continue cooking. </p><p class="line">- Discard bay leaf. Taste sauce and adjust seasoning with salt; keep warm.</p><p class="line">SERVE</p><p class="line">- Cook pasta in a large pot of boiling salted water according to package directions.</p><p class="line">- Using tongs, transfer pasta to pot with sauce.</p><p class="line">- Add ½ cup pasta cooking liquid and ½ cup Parmesan to sauce.</p><p class="line">- Increase heat to medium, bring to a simmer, and cook, tossing constantly, until pasta is al dente and liquid is slightly thickened, about 2 minutes.</p><p class="line">- Transfer pasta to a platter and top with more Parmesan.<br/></p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>- don&apos;t season the sauce at the end since we will be using pasta water which should be very salty<br/>- don&apos;t forget to wipe out the pot so we don&apos;t have too much grease!<br/>- follow the steps in order this time...<br/>- try Brian L&apos;s method of oven cooking (https://www.youtube.com/watch?v=d8Gq5SyZI34)<br/></p>
+        </div>
+    </div>
+    
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>

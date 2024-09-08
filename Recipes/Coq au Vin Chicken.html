@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="assets-library://asset/asset.JPG?id=2636B853-E3F3-4D9E-ADDE-7F3BFC619416&ext=JPG">
+                <img src="Images/D4F15A21-6F72-4C06-BF61-E051C189CCBA-25468-000009EFF31134DE/426E501D-534F-4F43-8028-9354F72BACF1-2995-0000035BE5834B61.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Coq au Vin Chicken</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">20 mins</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">40 mins</span>
+            
+            <b>Difficulty: </b><span itemprop="difficulty">Hard</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">4 servings</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                
+                    <span itemprop="author">My Collection</span>
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>4</strong> ounces slab bacon</p><p class="line" itemprop="recipeIngredient"><strong>20</strong> pearl onions</p><p class="line" itemprop="recipeIngredient"><strong>8</strong> ounces button mushrooms</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> chicken breasts</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> cloves garlic</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups chicken stock</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups red wine</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> bay leaves</p><p class="line" itemprop="recipeIngredient">Fresh thyme</p><p class="line" itemprop="recipeIngredient">Fresh parsley</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tbsp butter</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">PREP</p><p class="line">Dice bacon into 1/4 inch squares.</p><p class="line">Roughly chop mushrooms.</p><p class="line">Peel garlic.</p><p class="line">Chop and onion.</p><p class="line">Take a few sprigs of thyme and parsley.</p><p class="line">COOK</p><p class="line">Put the bacon in a large, deep skillet with a lid that will hold all the chicken. Cook over medium‐high heat, stirring occasionally, until the bacon gives up its fat and becomes brown and crisp, about 10 minutes.</p><p class="line">Add the onions, button mushrooms, and chicken, skin side down, and brown the chicken well, rotating and turning the pieces as necessary; the process will take 10 to 15 minutes.</p><p class="line">About halfway through this time, add the garlic and sprinkle the chicken with salt and pepper.</p><p class="line">Pour or spoon off any excess fat and add the stock, wine, and herbs.</p><p class="line">Adjust the heat so that the mixture bubbles gently but steadily. Cover and cook for about 20 minutes, or until the chicken is tender and cooked through; the bird is done when an instant‐read thermometer inserted into the thickest part of the thigh reads 155–165°F. (If you like, you can remove the breast pieces, which will finish cooking first, and keep them warm while the leg pieces finish.) Transfer the chicken to a platter and keep warm.</p><p class="line">Boil until the mixture is reduced by about three‐quarters and becomes fairly thick and saucy. </p><p class="line">Lower the heat, stir in the butter, and return the chicken to the pan, just to reheat a bit and coat with the sauce. (You can make the dish ahead to this point and refrigerate for up to a day; reheat gently.) Taste and adjust the seasoning, garnish with parsley, and serve.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>The French home‐style standard, very dark and rich. If you use a typical chicken, it&apos;s actually a pretty quick recipe to prepare; traditionally, the bird would be old and tough (if you&apos;ve come across such a bird, cook it this way, but for a while longer). Use a decent but not necessarily expensive red wine and serve with hearty bread or Mashed Potatoes.</p>
+        </div>
+    </div>
+    
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>
