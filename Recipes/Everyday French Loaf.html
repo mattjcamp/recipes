@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="#">
+                <img src="Images/2EA58795-FAD0-4F54-880A-664BF49E87DF/CA1360C1-21E2-4B4E-AB0F-30BC0B7A8672.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Everyday French Loaf</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+        
+            <p itemprop="recipeCategory" class="categories">Bread</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">24 hours</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">40 minutes</span>
+            
+            <b>Difficulty: </b><span itemprop="difficulty">Hard</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://www.kingarthurbaking.com/recipes/everyday-french-loaf-recipe">
+                        <span itemprop="author">King Arthur Baking</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>Preferment</strong></p><br/><p class="line" itemprop="recipeIngredient"><strong>214</strong>g unbleached flour</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> tsp instant yeast</p><p class="line" itemprop="recipeIngredient"><strong>214</strong>g water, cold (55°F to 60°F)</p><br/><p class="line" itemprop="recipeIngredient"><strong>Dough</strong></p><br/><p class="line" itemprop="recipeIngredient"><strong>427</strong>g (85% of flour) preferment, Can sub sourdough levain</p><p class="line" itemprop="recipeIngredient"><strong>308</strong>g (62% of flour) water, warm (110°F)</p><p class="line" itemprop="recipeIngredient"><strong>500</strong>g unbleached flour</p><p class="line" itemprop="recipeIngredient"><strong>15</strong>g (3% of flour) salt</p><p class="line" itemprop="recipeIngredient"><strong>2</strong>g (1/2 tsp) instant yeast</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Night Before Baking: Preferment (12 Hours)</strong></p><p class="line">In a medium bowl, combine the flour, yeast (or sourdough starter), and water. Use a big bowl so you can throw the other stuff in the next morning.</p><p class="line">Mix until no dry patches of flour remain</p><p class="line">Cover and let it rest overnight at room temperature, 12 to 16 hours</p><p class="line"><strong>Autolyse (20 minutes)</strong></p><p class="line">Combine all the ingredients and mix well with a dough whisk</p><p class="line">Using a wet hand and a light touch, quickly work the dough against the side of the bowl until it begins to smooth out and is tacky.</p><p class="line">Once you’ve mixed your dough, let it rest, covered, for 20 minutes</p><p class="line"><strong>Bulk Rise: Slap &amp; Folds (40 minutes)</strong></p><p class="line">Perform 8-12 bowl folds</p><p class="line">Let rest for 20 minutes</p><p class="line">Perform another bowl fold</p><p class="line">Let rest for 20 minutes</p><p class="line">Perform a very gentle coil fold</p><p class="line"><strong>Bulk Rise: Rest (1 Hour)</strong></p><p class="line">Cover and let the dough rest at room temperature for 1 hour, or until it feels puﬀy and marshmallowy.</p><p class="line"><strong>Shaping (15 minutes)</strong></p><p class="line">Use a bowl scraper to gently ease the dough out of the bowl and onto a work surface lightly dusted with flour, then divide the dough into 2 even pieces (650g each)</p><p class="line">Gently pre-shape each piece of dough into a round</p><p class="line">Cover the pre-shaped dough and let it rest on a lightly floured surface for 15 minutes</p><p class="line">Generously dust two 9&quot; x 3&quot; round or oval-proofing baskets with rice flour</p><p class="line">Shape each piece of dough into a boule or batard, then place them seam-side up in the prepared baskets</p><p class="line"><strong>Proof (1 Hour)</strong></p><p class="line">Cover the baskets and let the dough rise until it looks and feels marshmallowy and a small indentation remains when pressed with a floured finger, 45 minutes to 1 hour</p><p class="line">Meanwhile, preheat the oven to 475°F with the dutch oven on the middle rack and with a baking steel on the lower rack</p><p class="line"><strong>BAKE</strong></p><p class="line">Use a baker’s lame or razor blade to score the tops of the loaves</p><p class="line">Load the loaf into the dutch oven</p><p class="line">Reduce oven temperature to 450F</p><p class="line">Bake, covered, for 20 minutes</p><p class="line">Remove cover and bake for another 20 minutes</p><p class="line">Bread will be 210F when ready</p><p class="line">Turn oﬀ the oven, leave the door open a crack, and leave the bread in the oven for an hour or so to cure</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>- Increased original amounts by 1.924% so that the dough will fill the larger baskets I use<br/>- If only using sourdough Levain, you will need to bulk rise for four hours and bench rise for<br/>2 hours</p>
+        </div>
+    </div>
+    
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Serving Size: 1 slice (47g)<br/>Calories: 100 calories<br/>Fat: 0g<br/>Saturated Fat: 0g<br/>Trans Fat: 0g<br/>Cholesterol: 0mg<br/>Sodium: 210mg<br/>Carbohydrates: 20g<br/>Fiber: 1g<br/>Sugar: 0g<br/>Protein: 3g</p>
+    </div>
+</div>
+
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            
+            {
+                msrc: 'Images/2EA58795-FAD0-4F54-880A-664BF49E87DF/8D518E79-CE87-4B97-BBC8-23BDEA4E614F.jpg',
+                src: 'Images/2EA58795-FAD0-4F54-880A-664BF49E87DF/8D518E79-CE87-4B97-BBC8-23BDEA4E614F.jpg',
+                w: 1024.0,
+                h: 683.0,
+                title: '1'
+            },
+            
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+
+
+
+    </body>
+</html>
