@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://assets.epicurious.com/photos/560df9637b55306961bfe9a1/1:1/w_600%2Ch_600/109078.jpg">
+                <img src="Images/179DC250-EF08-4269-8BDF-AECC54D56F73-412-0000007F46298929/1E571C26-3AF1-4984-A64B-F9E63C1752F2-412-0000007F4CBAA868.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Braised Chicken</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
+        
+            <p itemprop="recipeCategory" class="categories">Guides, Meals, Protein</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">1 hour</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">1 hour</span>
+            
+            <b>Total Time: </b><span itemprop="totalTime">2 hours</span>
+            
+            <b>Difficulty: </b><span itemprop="difficulty">Medium</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">8 servings</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://www.epicurious.com/recipes/food/views/braised-chicken-with-garlic-and-white-wine-109078">
+                        <span itemprop="author">epicurious.com</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">chicken</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups cooking liquid</p><br/><p class="line" itemprop="recipeIngredient"><strong>White Wine Garlic</strong></p><p class="line" itemprop="recipeIngredient"><strong>5</strong> garlic bulbs</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> tbsp olive oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups white wine</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> thyme</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Dry brine chicken at least 30 minutes prior to cooking</p><p class="line">Lightly smash garlic cloves just to flatten slightly, leaving peel attached and cloves as whole as possible or prepare alternative cooking liquid</p><p class="line">Heat 4 tablespoons extra-virgin olive oil in heavy large pot over medium-high heat</p><p class="line">Working in 2 batches, add chicken and cook until brown on all sides</p><p class="line">Transfer chicken to plate</p><p class="line">Add remaining 2 tbsp olive oil and aromatics to pot</p><p class="line">Stir until golden brown, about 4 minutes</p><p class="line">Add wine and thyme; bring to boil</p><p class="line">Return chicken to pot. Reduce heat to medium, cover, and simmer until chicken is cooked through, moving chicken pieces from top to bottom every 5 minutes (sauce will not cover chicken), about 20 minutes. </p><p class="line">Season to taste with salt and pepper.</p><p class="line">Transfer chicken to platter. Spoon garlic cloves around chicken and drizzle sauce over.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>
